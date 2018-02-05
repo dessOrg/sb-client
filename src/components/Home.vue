@@ -31,9 +31,7 @@
   </div>
  </div>
 
- <div class="strip">
-   <h2>Swahilibox provides a premier co-working space, social innovation centre and offers incubation support programme for new startup ideas leveraging the Swahilibox's resources and networks.</h2>
- </div>
+
 
  <div class="services">
   <div class="container-fluid">
@@ -53,7 +51,7 @@
        </div>
        <div class="service-cont">
          <h4>INNOVATION</h4>
-         <p></p>
+         <p> By allowing the developers of an innovation to reap the rewards of their efforts, we create an environment that encourages innovative thinking and hard work.</p>
        </div>
      </div>
      <div class="col-md-4 col-xs-12">
@@ -69,11 +67,11 @@
   </div>
  </div>
 
- <div class="member" style="padding-top: 10px;">
-  <div class="container">
-    <div class="row">
+ <div class="member" style="padding-top: 10px; background-color : #f4f4f5;">
+  <div class="container" style="padding:20px;margin-bottom:40px;">
+    <div class="row" style="background-color: #E0E0E0;">
       <div class="col-md-8" style="text-align: left;">
-        <h4 style="color:#FF9800;">BECOME A MEMBER</h4>
+        <h4 style="color:#FF9800; padding-right: 20px;">BECOME A MEMBER</h4>
         <h2>Join now to become part of this highly 
         dynamic, interactive environment.</h2>
       </div>
@@ -82,6 +80,22 @@
       </div>
     </div>
   </div>
+ </div>
+
+ <div class="connect">
+  <h3>Connect With Us</h3>
+  <div class="row">
+   <div class="col-md-offset-3 col-md-6 col-xs-12">
+   <div class="col-md-3 col-xs-3"><div class="social"><span><a href="#"><i class="fab fa-facebook-f fa-3x"></i></a></span></div></div>
+   <div class="col-md-3 col-xs-3"><div class="social"><span><a href="#"><i class="fab fa-twitter fa-3x"></i></a></span></div></div>
+   <div class="col-md-3 col-xs-3"><div class="social"><span><a href="#"><i class="fab fa-linkedin fa-3x"></i></a></span></div></div>
+   <div class="col-md-3 col-xs-3"><div class="social"><span><a href="#"><i class="fab fa-github fa-3x"></i></a></span></div></div>
+  </div>
+  </div>
+ </div>
+
+ <div style="color: #FF9800">
+  <h3>Our Partners </h3>
  </div>
 
 <div class="partners">
@@ -209,7 +223,7 @@ export default {
 }
 .strip {
   color : #a3a3a3;
-  background-color : #000;
+  background-color : #f4f4f5;
   text-align : centre;
   padding : 10px;
   margin-top : 10px;
@@ -218,6 +232,23 @@ export default {
   padding-top : 30px;
   text-align : center;
   background-color : #f4f4f5;
+}
+.connect {
+  padding: 10px;
+
+}
+.connect h3 {
+   color: #FF9800;
+}
+.connect span {
+    
+}
+.social {
+   background-color: #EEEEEE;
+   margin-left : 15px;
+   margin-right: 15px;
+   padding : 5px;
+   border-radius: 30%;
 }
 .icon span {
   border-radius : 50%;

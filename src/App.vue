@@ -13,10 +13,10 @@
      <div class="collapse navbar-collapse">
       <ul class="navbar-nav nav pull-right">
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/">Team</router-link></li>
-        <li><router-link to="/">Services</router-link></li>
-        <li><router-link to="/">Startups</router-link></li>
-        <li><router-link to="/">Events</router-link></li>
+        <li><router-link to="/team">Team</router-link></li>
+        <li><router-link to="/services">Services</router-link></li>
+        <li><router-link to="/startups">Startups</router-link></li>
+        <li><router-link to="/events">Events</router-link></li>
         <li><router-link to="/">About</router-link></li>
       </ul>
      </div>
@@ -25,6 +25,18 @@
   <div id="app">
     
     <router-view/>
+  </div>
+  <div class="footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-4 col-xs-12">
+
+     </div>
+     <div class="col-md-4 col-xs-12">
+      <h2>All Rights Reserve</h2>
+     </div>
+    </div>
+   </div>
   </div>
  </div>
 </template>
@@ -36,6 +48,9 @@ export default {
 </script>
 
 <style>
+body {
+ 
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,6 +58,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   
+}
+.footer {
+  background-color : gray;
 }
 .navbar-default {
   background : transparent;
