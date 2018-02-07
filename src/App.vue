@@ -28,16 +28,49 @@
   </div>
   <div class="footer">
    <div class="container">
-    <div class="row">
-     <div class="col-md-4 col-xs-12">
 
-     </div>
-     <div class="col-md-4 col-xs-12">
-      <h2>All Rights Reserve</h2>
-     </div>
+   
+     <div class="connect">
+      <h3 class="text-center">Connect With Us</h3>
+      <div class="row">
+
+      <div class="col-md-4 col-xs-12">
+         <p>Top Floor - Dalal House,</p>
+         <p>Sir Mbarak Hinawy Road,</p>
+         <p>Mombasa, Kenya.</p>
+         <p>E: info@swahilibox.co.ke</p>
+       <div class="col-md-6 col-xs-12">
+        <div class="col-md-3 col-xs-3">
+         <div class="social">
+         <span><a href="#"><i class="fab fa-facebook-f "></i></a></span></div>
+        </div>
+        <div class="col-md-3 col-xs-3">
+         <div class="social"><span><a href="#"><i class="fab fa-twitter "></i></a></span></div> 
+        </div>
+        <div class="col-md-3 col-xs-3">
+         <div class="social"><span><a href="#"><i class="fab fa-linkedin "></i></a></span></div>
+        </div>
+        <div class="col-md-3 col-xs-3"> 
+         <div class="social"><span><a href="#"><i class="fab fa-github"></i></a></span></div>
+       </div>
+      </div>
+
+
+      </div>
+      <div class="col-md-4 col-xs-12">
+
+         </div>
+   
+    <div class="col-md-4 col-xs-12">
+
     </div>
+    </div>
+    </div>
+ 
    </div>
   </div>
+
+
  </div>
 </template>
 
@@ -60,7 +93,7 @@ body {
   
 }
 .footer {
-  background-color : gray;
+  background-color : #efefef;
 }
 .navbar-default {
   background : transparent;

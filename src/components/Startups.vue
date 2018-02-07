@@ -4,6 +4,48 @@
   <div class="top">
     <h2>Our Startups</h2>
   </div>
+
+  <div class="container">
+   <div class="row">
+    <div class="col-md-4 col-xs-12">
+     <div class="startup">
+      <div class="image">
+       <img src="../assets/veive.png" class="img-responsive">
+      </div>
+      <div class="content">
+       <h4>Veive</h4>
+       <p>Get in touch with friends, post your experiences and reviews. 
+       With Veive, you know where to go, when, how and why!..<a href="https://www.veive.co.ke/" target="_blank">Visit</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="startup">
+      <div class="image">
+       <img src="../assets/salonhunt.png" class="img-responsive">
+      </div>
+      <div class="content">
+       <h4>Salonhunt</h4>
+       <p>Salonhunt lets you find salont around around you. It saves you time and always update you on latest hair style. <a href="salonhunt.ke/" target="_blank">visit</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="startup">
+      <div class="image">
+       <img src="../assets/sec.jpg" class="img-responsive">
+      </div>
+      <div class="content">
+       <h4>Sec Security</h4>
+       <p>get in touch with friends, post your experiences and reviews. 
+       with veive, you know where to go, when, how and why!..<a href="https://www.veive.co.ke/" target="_blank">visit</a></p>
+      </div>
+     </div>
+    </div>
+         
+   </div>
+  </div>
+
  </div>
 </template>
 
@@ -17,5 +59,11 @@ export default {
 </script>
 
 <style>
-
+.startup {
+  margin : 20px;
+}
+.image img {
+  height : 200px;
+  width : 100%;
+}
 </style>
