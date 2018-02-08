@@ -66,4 +66,14 @@ export default {
   height : 200px;
   width : 100%;
 }
+.top {
+   padding-top : 50px;
+   padding-bottom : 30px;
+   background-color : #BDBDBD;
+   color : #FF9800;
+   background-image : url(../assets/banners/banner2.jpg);
+   background-size : cover;
+   background-attachment : fixed;
+}
+
 </style>

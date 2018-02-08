@@ -10,6 +10,7 @@
    <hr>
    <div class="container">
     <div class="row">
+    <div class="col-md-offset-1 col-md-10 col-xs-12">
      <div class="col-md-4 col-xs-12">
       <div class="prof">
        <img src="../assets/team/avatar1.png" class="img-responsive team-img">
@@ -30,6 +31,7 @@
        <h3>Ajra Abdullatif</h3>
        <p>Director of Community Engagement</p>
       </div>
+     </div>
      </div>
     </div>
    </div>
@@ -53,4 +55,20 @@ export default {
 .team-exec {
  margin-bottom : 20px;
 }
+.prof {
+ text-align : center;
+}
+.prof img {
+ width: 100%;
+}
+.top {
+   padding-top : 50px;
+   padding-bottom : 30px;
+   background-color : #BDBDBD;
+   color : #FF9800;
+   background-image : url(../assets/banners/banner2.jpg);
+   background-size : cover;
+   background-attachment : fixed;
+}
+
 </style>
