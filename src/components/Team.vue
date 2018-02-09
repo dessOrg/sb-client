@@ -55,6 +55,11 @@ export default {
 .team-exec {
  margin-bottom : 20px;
 }
+.team-exec hr {
+  background-color : red;
+  color : green;
+  width : 110px;
+}
 .prof {
  text-align : center;
 }

@@ -36,9 +36,8 @@
        <img src="../assets/sec.jpg" class="img-responsive">
       </div>
       <div class="content">
-       <h4>Sec Security</h4>
-       <p>get in touch with friends, post your experiences and reviews. 
-       with veive, you know where to go, when, how and why!..<a href="https://www.veive.co.ke/" target="_blank">visit</a></p>
+       <h4>SmartSec</h4>
+       <p>IoT innovation that detects intrusion, sends quick notifications and provides a real time video of what is happening at your premise.</p>
       </div>
      </div>
     </div>

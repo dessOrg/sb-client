@@ -1,10 +1,11 @@
 
 <template>
-<div class="">
+<div class="container-fluid">
+ <div class="row">
  <div class="slider">
 <div class="container-fluid">
  <div class="row">
-  <div class="col-md-offset-1 col-md-10 col-xs-11">
+  <div class="col-md-offset-1 col-md-10 col-sm-12">
   <div class="slider-text">
    <hr>
    <h3>THE TECHNOLOGY OPEN SPACE</h3>
@@ -14,7 +15,7 @@
    <hr>
   </div>
   </div>
-  <div class="col-md-1 col-xs-1">
+  <div class="col-md-1 hidden-sm hidden-xs">
    <div class="socicon" style="margin-top:200px;">
     <div id="socicon"> <i class="fab fa-facebook-f fa-2x"></i></div>
     <div id="socicon"><i class="fab fa-twitter fa-2x"></i></div>
@@ -83,9 +84,13 @@
  </div>
 
 <div class="join">
+<div class="row">
+<div class="col-md-offset-3 col-md-6 col-xs-10">
  <h4>JOIN US</h4>
  <h1><strong>"</strong>Join now to become part of this highly
  dynamic, interactive environment.<strong>"</strong></h1>
+ </div>
+ </div>
 </div>
 
  <div style="color: #000">
@@ -176,6 +181,7 @@
 
 </div>
 
+</div>
  </div>
 </template>
 
@@ -277,11 +283,12 @@ export default {
   width : 100px;
 }
 .join {
-  padding-left : 220px;
-  padding-right : 220px;
+  margin-top : 10px;
+  padding-left : 5px;
+  padding-right : 5px;
   padding-top : 20px;
   padding-bottom : 20px;
-  text-align : left;
+  text-align : center;
   background-image : url(../assets/banners/banner5.jpg);
   background-size : cover;
   background-attachment : fixed;

@@ -95,6 +95,21 @@ export default {
 </script>
 
 <style>
+@media (max-width: 978px) {
+  .container-fluid {
+     padding:0;
+     margin:0;
+     overflow-x : hidden;
+   }
+   body {
+     padding:0;
+   }
+   .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom:0;
+   }
+}
 body {
  
 }
@@ -114,6 +129,7 @@ body {
 }
 .footer-loc {
   border-right : inset;
+  color : #fff;
 }
 .footer-note {
   
